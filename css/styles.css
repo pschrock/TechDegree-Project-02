@@ -48,7 +48,8 @@ a:visited {
 
 /*  Intro Styling */
 
-.my-portfolio {
+.my-portfolio,
+.my-skills {
   background: white;
   color: rgb(100, 100, 100);
 }
@@ -79,10 +80,12 @@ p {
 
 /*  Content Styling */
 
-.my-portfolio h2 {
+.my-portfolio h2,
+.my-skills h2 {
   padding: 35px 0;
 }
-.my-portfolio img {
+.my-portfolio img,
+.my-skills img {
   max-width: 100%;
   padding: 1em;
 }
