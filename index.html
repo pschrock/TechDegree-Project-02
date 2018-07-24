@@ -8,26 +8,29 @@
   	<link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
-  <body>
+  <body id="home">
     <header>
       <h1>Peter Schrock</h1>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
 
     <div class="container">
       <div class="intro">
-        <img src="images/responsive-layout-profile.png" alt="Profile image of Peter Schrock">
+        <!-- <img src="images/responsive-layout-profile.png" alt="Profile image of Peter Schrock"> -->
+        <div class="profile-img">
+          <img src="images/responsive-layout-profile-me-SM.jpg" alt="A picture of Peter Schrock">
+        </div>
         <p>Hello there! My name is Peter Schrock and I am an aspiring student from Treehouse
           looking to show off what I am able to do. I have recently completed my degree in
           front end web development and am excited to put my skills using responsive web
           design to good use.</p>
       </div>
 
-      <div class="portfolio">
+      <div class="my-portfolio" id="portfolio">
         <h2>Portfolio</h2>
         <div class="marketing">
           <img src="images/portfolio-1.png" alt="Graphic for Marketing">
@@ -68,9 +71,18 @@
 
       </div>
     </div>
+    <div id="contact">
+      <h3>Contact</h3>
+      <p>If you would like to reach out and have a conversation, I would love to speak with.</p>
+      <div class="contact-details">
+        <p>Email: <a href="mailto:peter@miskit.org"><strong>peter@miskit.org</strong></a></p>
+        <p>Phone: <a href="tel:+12345678900"><strong>+1 (234)-567-8900</strong></a></p>
+      </div>
+    </div>
 
     <footer>
-
+      <span class="float-left"><strong>Peter Schrock</strong></span>
+      <span class="float-right"><a href="#home"><strong>Back to Top</strong></a></span>
     </footer>
   </body>
 </html>
