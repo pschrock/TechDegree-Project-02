@@ -11,58 +11,60 @@
   <body id="home">
     <header>
       <h1>Peter Schrock</h1>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </header>
 
     <div class="container">
-      <div class="intro">
+      <div class="intro clearfix">
         <!-- <img src="images/responsive-layout-profile.png" alt="Profile image of Peter Schrock"> -->
         <div class="profile-img">
           <img src="images/responsive-layout-profile-me-SM.jpg" alt="A picture of Peter Schrock">
         </div>
         <p>Hello there! My name is Peter Schrock and I am an aspiring student from Treehouse
-          looking to show off what I am able to do. I have recently completed my degree in
+          looking to show off what I am able to do. I am currently completing my degree in
           front end web development and am excited to put my skills using responsive web
           design to good use.</p>
       </div>
 
-      <div class="my-portfolio" id="portfolio">
+      <div class="my-portfolio clearfix" id="portfolio">
         <h2>Portfolio</h2>
-        <div class="marketing">
+        <div class="marketing col">
           <img src="images/portfolio-1.png" alt="Graphic for Marketing">
           <h3>Marketing Page</h3>
           <p>This project shows the front page of a marketing website meant for a specific
             business I'm interested in.</p>
         </div>
-        <div class="search">
+        <div class="search col">
           <img src="images/portfolio-2.png" alt="Graphic of web search">
           <h3>Search Page</h3>
           <p>This project searches through a specific database to find information that the
             user is trying to look up.</p>
         </div>
-        <div class="travel-app">
+        <div class="travel-app col">
           <img src="images/portfolio-3.png" alt="Graphic for the Travel App">
           <h3>Travel App</h3>
           <p>This project compares travel times based on different transportation methods
             and tells you the best one.</p>
         </div>
-        <div class="fav-spots">
+        <div class="fav-spots col">
           <img src="images/portfolio-4.png" alt="Graphic of a map of my favorite spots">
           <h3>Map of Favorite Spots</h3>
           <p>This project uses mapping apis to plot points for my favorite spots in the
             city for a do-it-yourself walking tour.</p>
         </div>
-        <div class="gallery">
+        <div class="gallery col">
           <img src="images/portfolio-5.png" alt="Graphic of a photo gallery">
           <h3>Photo Gallery</h3>
           <p>This project shows pictures from a recent trip to the viewer and allows them
             to easily navigate through photos.</p>
         </div>
-        <div class="calculator">
+        <div class="calculator col">
           <img src="images/portfolio-6.png" alt="Graphic of a calculator">
           <h3>Calculator</h3>
           <p>Someone can enter in the numbers they want, and press the big blue button and
@@ -71,6 +73,8 @@
 
       </div>
     </div>
+
+
     <div id="contact">
       <h3>Contact</h3>
       <p>If you would like to reach out and have a conversation, I would love to speak with.</p>
@@ -80,7 +84,7 @@
       </div>
     </div>
 
-    <footer>
+    <footer class="clearfix">
       <span class="float-left"><strong>Peter Schrock</strong></span>
       <span class="float-right"><a href="#home"><strong>Back to Top</strong></a></span>
     </footer>
